@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>asdasdasdasdasdasdasasdasdasdasdasasdas
+<head>
         <meta charset="ISO-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Plataforma web Proherco">
@@ -271,7 +271,7 @@
 	
 	
 		            <div class="panel-body">
-		            Este es una modificacion
+		            NUEVA MODIFICACIONNNNNNNNNNNNNNNNNN
 		                
 		                <div class="form-group " >
 		                    <div class="col-xs-12" style="padding-bottom: 10px; z-index: 100;" >
