@@ -1,0 +1,111 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.multipart.saveDir" value="/opt/tmpweb" />
+	<package name="default" extends="struts-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+		<action name="*" method="{1}" class="ve.com.proherco.web.action.LinkAction">
+			<interceptor-ref name="fileUpload"/>			
+								
+			<result name="login" type="tiles">login</result>
+			<result name="Login">/Login</result>
+			
+			<result name="dashboard" type="tiles">dashboard</result>
+			
+			<result name="Dashboard">/Dashboard</result>
+			
+			<result name="persona" type="tiles">persona</result>
+			<result name="addPersona" type="tiles">addPersona</result>
+			<result name="Persona">/Persona</result>
+			
+			<result name="precio" type="tiles">precio</result>
+			<result name="addPrecio" type="tiles">addPrecio</result>
+			<result name="Precio">/Precio</result>
+			
+			<result name="trabajadorcuadrilla" type="tiles">trabajadorcuadrilla</result>
+			<result name="Trabajadorcuadrilla">/Trabajadorcuadrilla</result>
+			
+			<result name="Detalleetapa">/Detalleetapa</result>
+			<result name="Detallesolicitud">/Detallesolicitud</result>
+			<result name="Compramaterial">/Compramaterial</result>
+			<result name="Materialporobra">/Materialporobra</result>
+			
+			<result name="cuadrilla" type="tiles">cuadrilla</result>
+			<result name="addCuadrilla" type="tiles">addCuadrilla</result>
+			<result name="Cuadrilla">/Cuadrilla</result>
+			
+			<result name="usuario" type="tiles">usuario</result>
+			<result name="addUsuario" type="tiles">addUsuario</result>
+			<result name="Usuario">/Usuario</result>
+			
+			<result name="addProyecto" type="tiles">addProyecto</result>
+			<result name="proyecto" type="tiles">proyecto</result>
+			<result name="Proyecto">/Proyecto</result>
+			
+			<result name="addProveedor" type="tiles">addProveedor</result>
+			<result name="proveedor" type="tiles">proveedor</result>
+			<result name="Proveedor">/Proveedor</result>
+			
+			<result name="addEtapa" type="tiles">addEtapa</result>
+			<result name="etapa" type="tiles">etapa</result>
+			<result name="Etapa">/Etapa</result>
+			
+			<result name="subetapa" type="tiles">subetapa</result>
+			<result name="addSubetapa" type="tiles">addSubetapa</result>
+			<result name="Subetapa">/Subetapa</result>
+			
+			
+			<result name="addObra" type="tiles">addObra</result>
+			<result name="obra" type="tiles">obra</result>
+			<result name="Obra">/Obra</result>
+			
+			
+			<result name="addTipoobra" type="tiles">addTipoobra</result>
+			<result name="tipoobra" type="tiles">tipoobra</result>
+			<result name="Tipoobra">/Tipoobra</result>
+			
+			
+			<result name="cargo" type="tiles">cargo</result>
+			<result name="addCargo" type="tiles">addCargo</result>
+			<result name="Cargo">/Cargo</result>
+			
+			<result name="addMaterial" type="tiles">addMaterial</result>
+			<result name="material" type="tiles">material</result>
+			<result name="Material">/Material</result>
+			
+			<result name="addSolicitudmaterial" type="tiles">addSolicitudmaterial</result>
+			<result name="solicitudmaterial" type="tiles">solicitudmaterial</result>
+			<result name="Solicitudmaterial">/Solicitudmaterial</result>
+			
+			
+			<result name="addTrabajador" type="tiles">addTrabajador</result>
+			<result name="trabajador" type="tiles">trabajador</result>
+			<result name="Trabajador">/Trabajador</result>
+			
+			<result name="addCompra" type="tiles">addCompra</result>
+			<result name="compra" type="tiles">compra</result>
+			<result name="Compra">/Compra</result>
+
+			<result name="menu" type="tiles">menu</result>
+			
+			<result name="despachomaterial" type="tiles">despachomaterial</result>
+			<result name="addDespachomaterial" type="tiles">addDespachomaterial</result>
+			<result name="Despachomaterial">/Despachomaterial</result>
+			
+			<result name="inspeccion" type="tiles">inspeccion</result>
+			<result name="addInspeccion" type="tiles">addInspeccion</result>
+			<result name="Inspeccion">/Inspeccion</result>
+			
+			<result name="pago" type="tiles">pago</result>
+			<result name="addPago" type="tiles">addPago</result>
+			<result name="Pago">/Pago</result>
+			
+			<result name="noPermiso" type="tiles">noPermiso</result>
+			
+		</action>		
+	</package>
+</struts>

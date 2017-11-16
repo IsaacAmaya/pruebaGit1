@@ -1,0 +1,5 @@
+	<Resource name="jdbc/obras" auth="Container"
+		          type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
+		          url="jdbc:postgresql://192.168.20.14:5432/obras"
+		          username="postgres" password="*1eurekaDS1*" maxTotal="150" maxIdle="10"
+		maxWaitMillis="-1"/>

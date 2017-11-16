@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+  <definition name="webPrincipal" template="/plantillaPrincipal.jsp">
+  </definition>
+  
+  <definition name="login" template="/index.jsp">
+  </definition>
+  
+  <definition name="menu" template="/inicio_metro.jsp">
+  </definition>
+  
+  <definition name="dashboard" template="/dashboard2.jsp">
+  </definition>
+  
+  <definition name="Dashboard" template="/modulo/charts/chart_grafico5.jsp">
+  </definition>
+  
+  <!-- <definition name="dashboard" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/dashboard.jsp"/> 
+  </definition> -->
+  
+  <definition name="persona" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_persona.jsp"/> 
+  </definition>
+  
+  <definition name="addPersona" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_persona.jsp"/> 
+  </definition>
+  
+  <definition name="cuadrilla" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_cuadrilla.jsp"/> 
+  </definition>
+  
+  <definition name="addCuadrilla" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_cuadrilla.jsp"/> 
+  </definition>
+  
+  <definition name="usuario" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_usuario.jsp"/> 
+  </definition>
+  
+  <definition name="addUsuario" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_usuario.jsp"/> 
+  </definition>
+  
+  <definition name="addProyecto" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_proyecto.jsp"/> 
+  </definition>
+  
+  <definition name="proyecto" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_proyecto.jsp"/> 
+  </definition>
+  
+  <definition name="addObra" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_obra.jsp"/> 
+  </definition>
+  
+  <definition name="obra" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_obra.jsp"/> 
+  </definition>
+  
+  <definition name="addPrecio" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_precio.jsp"/> 
+  </definition>
+  
+  <definition name="precio" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_precio.jsp"/> 
+  </definition>
+  
+  <definition name="addProveedor" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_proveedor.jsp"/> 
+  </definition>
+  <definition name="proveedor" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_proveedor.jsp"/> 
+  </definition>
+  
+  <definition name="addMaterial" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_material.jsp"/> 
+  </definition>
+  
+  <definition name="material" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_material.jsp"/> 
+  </definition>
+  
+  <definition name="addCudarilla" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_cuadrilla.jsp"/> 
+  </definition>
+  
+  <definition name="addTrabajador" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_trabajador.jsp"/> 
+  </definition>
+  
+  <definition name="trabajador" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_trabajador.jsp"/> 
+  </definition>
+  
+  <definition name="addCompra" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_compra.jsp"/> 
+  </definition>
+  
+  <definition name="compra" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_compra.jsp"/> 
+  </definition>
+  
+  <definition name="addSolicitudmaterial" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_solicitudmaterial.jsp"/> 
+  </definition>
+  
+  <definition name="solicitudmaterial" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_solicitudmaterial.jsp"/>
+  </definition>
+  
+  <definition name="addEtapa" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_etapa.jsp"/> 
+  </definition>
+  
+  <definition name="etapa" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_etapa.jsp"/> 
+  </definition>
+  
+  <definition name="addTipoobra" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_tipoobra.jsp"/> 
+  </definition>
+  
+  <definition name="tipoobra" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_tipoobra.jsp"/> 
+  </definition>
+  
+  <definition name="addSubetapa" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_subetapa.jsp"/> 
+  </definition>
+  <definition name="subetapa" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_subetapa.jsp"/> 
+  </definition>
+  
+  <definition name="addCargo" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_cargo.jsp"/> 
+  </definition>
+  
+  <definition name="cargo" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_cargo.jsp"/> 
+  </definition>
+  
+  
+  <definition name="addDespachomaterial" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_despachomaterial.jsp"/> 
+  </definition>
+  
+  <definition name="despachomaterial" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_despachomaterial.jsp"/> 
+  </definition>
+  
+  <definition name="addInspeccion" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_inspeccion.jsp"/> 
+  </definition>
+  
+  <definition name="inspeccion" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_inspeccion.jsp"/> 
+  </definition>
+  
+  <definition name="addPago" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_pago.jsp"/> 
+  </definition>
+  
+  <definition name="pago" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/listado_pago.jsp"/> 
+  </definition>
+  
+  <definition name="noPermiso" extends="webPrincipal">
+  	  <put-attribute name="cabecera"  value="/menuleft.jsp"/>    
+      <put-attribute name="container"  value="/modulo/formulario_no_permiso.jsp"/> 
+  </definition>
+  
+</tiles-definitions>
