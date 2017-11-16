@@ -271,7 +271,7 @@
 	
 	
 		            <div class="panel-body">
-		            
+		            Este es una modificacion
 		                
 		                <div class="form-group " >
 		                    <div class="col-xs-12" style="padding-bottom: 10px; z-index: 100;" >
@@ -287,7 +287,7 @@
 		                
 		                <div class="form-group">
 		                    <div class="col-xs-12" style="padding-bottom: 10px" >
-		                        <button id="btnLogin" class="btn btn-primary btn-lg btn-block" onclick="login();" style="text-transform: none;">Ingresar</button>
+		                        <button id="btnLogin" class="btn btn-primary btn-lg btn-block" onclick="login();" style="text-transform: none;">Entrar</button>
 		                    </div>
 		                </div>
 		
